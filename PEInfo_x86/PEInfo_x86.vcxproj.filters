@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="PEFunctions">
+      <UniqueIdentifier>{8879f9af-9385-4aa4-876f-d5fb47b73235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Section Table">
+      <UniqueIdentifier>{f6af12ac-f642-4544-8a4d-4d131541612e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Directory">
+      <UniqueIdentifier>{aa96e981-b8f3-4ac6-9ede-50e929df1775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Export Table">
+      <UniqueIdentifier>{9c6b7984-bc26-4aa7-80f3-a4c00a322b52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Import Table">
+      <UniqueIdentifier>{43416430-1708-4e4b-95c8-214dde100a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Calculator">
+      <UniqueIdentifier>{250bbef1-1a6d-452a-baf8-b8e856ce18e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task Manager">
+      <UniqueIdentifier>{fe0be66b-f9d2-4bb8-bbf8-bddb3b4d1f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Table">
+      <UniqueIdentifier>{7387b8ef-7c28-44dd-bb3a-8c8c41b51b97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PEFunctions.h">
+      <Filter>PEFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="SectionTable.h">
+      <Filter>Section Table</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDirectory.h">
+      <Filter>Data Directory</Filter>
+    </ClInclude>
+    <ClInclude Include="Export Table.h">
+      <Filter>Export Table</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportTable.h">
+      <Filter>Import Table</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculator.h">
+      <Filter>Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManager.h">
+      <Filter>Task Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceTable.h">
+      <Filter>Resource Table</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PEInfo_x86.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PEFunctions.c">
+      <Filter>PEFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionTable.c">
+      <Filter>Section Table</Filter>
+    </ClCompile>
+    <ClCompile Include="DataDirectory.c">
+      <Filter>Data Directory</Filter>
+    </ClCompile>
+    <ClCompile Include="Export Table.c">
+      <Filter>Export Table</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportTable.c">
+      <Filter>Import Table</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculator.c">
+      <Filter>Calculator</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManager.c">
+      <Filter>Task Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceTable.c">
+      <Filter>Resource Table</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="PEInfo.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
